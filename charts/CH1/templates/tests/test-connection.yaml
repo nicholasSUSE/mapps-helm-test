@@ -13,5 +13,6 @@ spec:
       containers:
       - name: test
         image: busybox
-        command: ['sh', '-c', 'output=$(wget -O- --no-check-certificate http://"{{ .Chart.Name }}-service":{{ .Values.service.port }}/{{ .Chart.Name }}); echo "$output"']
+        command: ['sh', '-c',
+        'while true; do output=$(wget -O- --no-check-certificate http://"{{ .Chart.Name }}-service":{{ .Values.service.port }}/{{ .Chart.Name }}); echo "Success: $output"; sleep 5; done']
       restartPolicy: Never

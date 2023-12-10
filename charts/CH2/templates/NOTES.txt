@@ -1,15 +1,23 @@
-See if it worked:
+###################################################################################################################
+INSTALLATION SUCCESSFUL
+COMPUTED HELPERS:
+{
+    "Chart Name": "{{ .Chart.Name }}",
+    "Labels": "{{ include "ch.labels" . | nindent 8 }}",
+    "Selector Labels": "{{ include "ch.selectorLabels" . | nindent 8 }}",
+    "Service": "{{ include "ch.service" . }}",
+    "Ingress": "{{ include "ch.ingress" . }},
+    "Nginx": "{{ include "ch.nginx" . }},
+    "ConfigMap": "{{ include "ch.configmap" . }},
+    "Deployment": "{{ include "ch.deployment" . }},
+    "Batch Job Connection Test": "{{ include "ch.connection-test" . }}
+}
 
-
-kubectl -n default logs jobs.batch/{{ .Chart.Name }}-connection-test-v.{{ .Chart.Version }} --follow
-
-
-or just go see the logs on job pod.
 
 SUCCESS MESSAGE will be something like the following:
 {"chartName": "{{ .Chart.Name }}", "chartVersion": "{{ .Chart.Version }}", "releaseName": "{{ .Release.Name }}", "appVersion": "{{ .Chart.AppVersion }}"}
 
-COMPUTED HELPERS:
-{
-    "hello-1.chart": "{{ .Chart.Name }}"
-}
+See logs for verify expected behavior:
+
+
+kubectl -n default logs jobs.batch/{{ .Chart.Name }}-connection-test-v.{{ .Chart.Version }} --follow
