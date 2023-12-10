@@ -7,13 +7,13 @@ src="charts/CH1"
 base="charts/CH"
 
 # The number of copies to make
-copies=100
+copies=500
 
 # The number of available icons
 icons=15
 
 # Start from 2 because CH1 already exists
-for (( i=2; i<=copies+1; i++ ))
+for (( i=2; i<=copies; i++ ))
 do
   # Construct the destination directory name
   dest="$base$i"

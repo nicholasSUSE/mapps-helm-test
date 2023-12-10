@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  {{- include "ch.deployment" . | nindent 2 }}
+  labels:
+    {{- include "ch.labels" . | nindent 4 }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      {{- include "ch.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        {{- include "ch.selectorLabels" . | nindent 8 }}
+    spec:
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "nginx:1.14.2"
+          ports:
+            - name: http
+              containerPort: {{ .Values.container.port }} # Use container port from values.yaml
+              protocol: TCP
+          volumeMounts:
+            - name: nginx-conf
+              mountPath: /etc/nginx/conf.d
+            - name: html
+              mountPath: /usr/share/nginx/html
+      volumes:
+        - name: nginx-conf
+          configMap:
+            {{- include "ch.nginx" . | nindent 12 }}
+        - name: html
+          configMap:
+            {{- include "ch.configmap" . | nindent 12 }}
