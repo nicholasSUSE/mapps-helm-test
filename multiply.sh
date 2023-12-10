@@ -7,7 +7,7 @@ src="charts/CH1"
 base="charts/CH"
 
 # The number of copies to make
-copies=10
+copies=15
 
 # Start from 2 because CH1 already exists
 for (( i=3; i<=copies+1; i++ ))

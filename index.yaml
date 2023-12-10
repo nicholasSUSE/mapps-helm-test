@@ -3,9 +3,9 @@ entries:
   ch1:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-12-10T17:41:22.29072224-03:00"
+    created: "2023-12-10T17:44:50.131466882-03:00"
     description: ch1 Chart with Ingress + Nginx and automatic job testing
-    digest: 784443f55894b3340c3869164a7363014758d28772ab15ee5e0004f263f06256
+    digest: 1fe98ec994327b72535e0b0720643602f401ab5b174da142f106c4664273b0d0
     icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch1.jpg
     name: ch1
     urls:
@@ -14,9 +14,9 @@ entries:
   ch2:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-12-10T17:41:22.291029579-03:00"
+    created: "2023-12-10T17:44:50.133085756-03:00"
     description: ch2 Chart with Ingress + Nginx and automatic job testing
-    digest: 0885231c37c418f2a8cd28cd0ba0af53fd9c76e22fecb1723c48d2a6fa82ef79
+    digest: b30f9f5305fb383acf546e535aec4ac79a0c6fc2b493061225824677f8147697
     icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch2.jpg
     name: ch2
     urls:
@@ -25,9 +25,9 @@ entries:
   ch3:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-12-10T17:41:22.291175556-03:00"
+    created: "2023-12-10T17:44:50.133249503-03:00"
     description: ch3 Chart with Ingress + Nginx and automatic job testing
-    digest: 64848fd1a76fe4d6037ef58e73a52c67f5fd05ad7dddc67d09350aaa1db71dcb
+    digest: d2ddc6c9316c19c35150eb7c6f9538196a7896b03656ca9c1c28a5fae3eb3667
     icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch3.jpg
     name: ch3
     urls:
@@ -36,9 +36,9 @@ entries:
   ch4:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-12-10T17:41:22.291322665-03:00"
+    created: "2023-12-10T17:44:50.133402422-03:00"
     description: ch4 Chart with Ingress + Nginx and automatic job testing
-    digest: ee8b86c07b34031d73637a1ce4ceb259e26f3c62af0f9aa17ab826649519fb6a
+    digest: 5dffaa872e43316cc8cf7f4d6901cefca5e636450ed4db34f4b20cd6dabade56
     icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch4.jpg
     name: ch4
     urls:
@@ -47,9 +47,9 @@ entries:
   ch5:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-12-10T17:41:22.291462108-03:00"
+    created: "2023-12-10T17:44:50.133551756-03:00"
     description: ch5 Chart with Ingress + Nginx and automatic job testing
-    digest: bcf1585f7301d1af9e9ac008d5ef6df16406bc827606d18a4f4161ac5b3c1063
+    digest: 1a4d5c73a5cc1a93690cf187e7c03acf7d54305003779e342382b896ebc67186
     icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch5.jpg
     name: ch5
     urls:
@@ -58,9 +58,9 @@ entries:
   ch6:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-12-10T17:41:22.291600759-03:00"
+    created: "2023-12-10T17:44:50.133700604-03:00"
     description: ch6 Chart with Ingress + Nginx and automatic job testing
-    digest: bf39d556279b2eb4c6a3c3b8752842fc9f32d5eaa6eacce88ce3b9dad0156547
+    digest: 7755c1125dcbe5500cc578ad15bc073476701e390e2162c90768d8a7fd2f7e76
     icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch6.jpg
     name: ch6
     urls:
@@ -69,9 +69,9 @@ entries:
   ch7:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-12-10T17:41:22.291736841-03:00"
+    created: "2023-12-10T17:44:50.133849207-03:00"
     description: ch7 Chart with Ingress + Nginx and automatic job testing
-    digest: adbe8b4d6d2cb56900c625efababa35c7619f58e2728aa25ada28dc2ff89699f
+    digest: 313f0e78b463ba44409fbf4527ef714d055a7f4c0a1d4f5ac3a7aa46c3b60505
     icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch7.jpg
     name: ch7
     urls:
@@ -80,9 +80,9 @@ entries:
   ch8:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-12-10T17:41:22.291877963-03:00"
+    created: "2023-12-10T17:44:50.134002881-03:00"
     description: ch8 Chart with Ingress + Nginx and automatic job testing
-    digest: b6081eb88c1ea243bc62f5d410feae89e258c65225514dcea77716a57f543e58
+    digest: d9d5d5298f290f70a547ece4712dbcd98c002614b426740b0144131b4fe6d297
     icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch8.jpg
     name: ch8
     urls:
@@ -91,9 +91,9 @@ entries:
   ch9:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-12-10T17:41:22.292569754-03:00"
+    created: "2023-12-10T17:44:50.134146057-03:00"
     description: ch9 Chart with Ingress + Nginx and automatic job testing
-    digest: 529b3236170492ea270d015c9e649b243c3b31fad58570e8bbbb8f12e104114c
+    digest: ac1e2eae74d06bf0d910117c00fc521f1d0c31fb9e8c731d11142b0918e237b2
     icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch9.jpg
     name: ch9
     urls:
@@ -102,12 +102,67 @@ entries:
   ch10:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-12-10T17:41:22.290878716-03:00"
+    created: "2023-12-10T17:44:50.131636608-03:00"
     description: ch10 Chart with Ingress + Nginx and automatic job testing
-    digest: f4bd12ff6c9b329137e4707b7f02a5dfd693a00f508ef1fb468731c043a6b023
+    digest: 289dbd94e3cdea94a559ef88dd8f18d05c7f1e9c59defaa101098c4cf16f3e0c
     icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch10.jpg
     name: ch10
     urls:
     - https://github.com/nicholasSUSE/mapps-helm-test/packages/ch10-1.0.0.tgz
     version: 1.0.0
-generated: "2023-12-10T17:41:22.290427926-03:00"
+  ch11:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-12-10T17:44:50.131795091-03:00"
+    description: ch11 Chart with Ingress + Nginx and automatic job testing
+    digest: f152649e7c1b02b486b24df626422cf6cd4bc047c46e51af7640b136930fe0d7
+    icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch11.jpg
+    name: ch11
+    urls:
+    - https://github.com/nicholasSUSE/mapps-helm-test/packages/ch11-1.0.0.tgz
+    version: 1.0.0
+  ch12:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-12-10T17:44:50.13233604-03:00"
+    description: ch12 Chart with Ingress + Nginx and automatic job testing
+    digest: 6bb0521c777b58baf802481a6f19f2a7061a2000884ac2417b9b2aaa8480e5ea
+    icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch12.jpg
+    name: ch12
+    urls:
+    - https://github.com/nicholasSUSE/mapps-helm-test/packages/ch12-1.0.0.tgz
+    version: 1.0.0
+  ch13:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-12-10T17:44:50.132555101-03:00"
+    description: ch13 Chart with Ingress + Nginx and automatic job testing
+    digest: a0cc35b1ffe0b975cc4bbcfa888e15eca3bfb3832d33490b7383a7ab2087eb93
+    icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch13.jpg
+    name: ch13
+    urls:
+    - https://github.com/nicholasSUSE/mapps-helm-test/packages/ch13-1.0.0.tgz
+    version: 1.0.0
+  ch14:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-12-10T17:44:50.132734042-03:00"
+    description: ch14 Chart with Ingress + Nginx and automatic job testing
+    digest: 4d9eeb3c31f1690bb4543d534fde16a8264de747e636ba379891b861e26e3109
+    icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch14.jpg
+    name: ch14
+    urls:
+    - https://github.com/nicholasSUSE/mapps-helm-test/packages/ch14-1.0.0.tgz
+    version: 1.0.0
+  ch15:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-12-10T17:44:50.132908421-03:00"
+    description: ch15 Chart with Ingress + Nginx and automatic job testing
+    digest: c4025ceddbc34aa8a54a48b2febc2913cc24fac24d1c3974f19e0872ab98d222
+    icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch15.jpg
+    name: ch15
+    urls:
+    - https://github.com/nicholasSUSE/mapps-helm-test/packages/ch15-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-12-10T17:44:50.131198513-03:00"

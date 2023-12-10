@@ -9,4 +9,9 @@ helm:
 	helm package charts/CH8 -d packages && \
 	helm package charts/CH9 -d packages && \
 	helm package charts/CH10 -d packages && \
+	helm package charts/CH11 -d packages && \
+	helm package charts/CH12 -d packages && \
+	helm package charts/CH13 -d packages && \
+	helm package charts/CH14 -d packages && \
+	helm package charts/CH15 -d packages && \
 	helm repo index --url https://github.com/nicholasSUSE/mapps-helm-test .
