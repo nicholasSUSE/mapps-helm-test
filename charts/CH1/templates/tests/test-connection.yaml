@@ -1,0 +1,17 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  {{- include "ch.connection-test" . | nindent 2 }}
+  labels:
+    app: {{ .Release.Name }}
+    chart: {{ .Chart.Name }}-{{ .Chart.Version }}
+    release: {{ .Release.Name }}
+spec:
+  backoffLimit: 5
+  template:
+    spec:
+      containers:
+      - name: test
+        image: busybox
+        command: ['sh', '-c', 'output=$(wget -O- --no-check-certificate http://"{{ .Chart.Name }}-service":{{ .Values.service.port }}/{{ .Chart.Name }}); echo "$output"']
+      restartPolicy: Never

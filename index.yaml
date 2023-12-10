@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  ch1:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-12-10T16:39:25.293706821-03:00"
+    description: ch1 Chart with Ingress + Nginx and automatic job testing
+    digest: b1a6add303aa1956eec732f9687ee3fd45998c6684b5130d89385ae79c3990ef
+    icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/main/icons/ch1.jpg
+    name: ch1
+    urls:
+    - https://github.com/nicholasSUSE/mapps-helm-test/packages/ch1-1.0.0.tgz
+    version: 1.0.0
+  ch2:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-12-10T16:39:25.293866098-03:00"
+    description: ch2 Chart with Ingress + Nginx and automatic job testing
+    digest: bb900cb229225f34a9997bb9077f266660a7d80d33f1ea67609e6de4911e9e03
+    icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/main/icons/ch2.jpg
+    name: ch2
+    urls:
+    - https://github.com/nicholasSUSE/mapps-helm-test/packages/ch2-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-12-10T16:39:25.293449426-03:00"
