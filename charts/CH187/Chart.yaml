@@ -1,6 +1,6 @@
 apiVersion: v2
 name: ch187
 description: ch1 Chart with Ingress + Nginx and automatic job testing
-version: 11.0.0
-appVersion: "11.0.0"
+version: 12.0.0
+appVersion: "12.0.0"
 icon: https://raw.githubusercontent.com/nicholasSUSE/mapps-helm-test/master/icons/ch7.jpg
