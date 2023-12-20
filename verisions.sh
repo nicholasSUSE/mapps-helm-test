@@ -3,10 +3,10 @@
 # The base name for the new directories
 base="charts/CH"
 
-new_version=2.0.0
+new_version=1.0.0
 
 # Loop over all directories from CH1 to CH500
-for i in {1..500}
+for i in {1..200}
 do
   # Define the file
   file="${base}${i}/Chart.yaml"
