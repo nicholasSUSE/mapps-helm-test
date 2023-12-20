@@ -3,7 +3,7 @@
 # The base name for the new directories
 base="charts/CH"
 
-new_version=7.0.0
+new_version=8.0.0
 
 # Loop over all directories from CH1 to CH500
 for i in {1..200}
